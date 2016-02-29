@@ -1,0 +1,90 @@
+p{
+    color: darkgray;
+    font-family: sans-serif;
+}
+
+a h1{
+    font-family: myFirstFont !important;
+    font-size: 8em;
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 150px;
+    letter-spacing: 10px;
+}
+
+.menu a{
+    color: greenyellow;
+}
+
+.menu a:hover{
+    color: red;
+}
+
+div{   
+    padding-bottom: 50px;
+}
+
+.menu{
+    background: black;
+    width: 400px;
+    height: 100vh; /***100% of the height of the viewport***/
+    position: fixed;
+    right: 0;
+    z-index: 1000;
+    opacity: 0.8;
+    padding-top: 300px;
+}
+
+@font-face{
+    font-family:myFirstFont;
+    src: url(madrats.ttf);
+}
+
+/*******************/
+/***********index.html****/
+
+#index div{
+    padding-bottom: 50px;
+}
+
+
+/*******************/
+/***********work.html****/
+/***peg all carousel images width of the viewport of the website*********************/
+#work #myCarousel{
+padding: 15px;
+
+}
+
+#work #myCarousel img{
+    width: 100vw;
+}
+
+/*#work #portfolio>div{
+    padding: 15px
+}*/
+
+#work .bg-mediumpurple{
+    background-color: mediumpurple;
+    padding: 30px; 
+    margin: 40px; 15px;
+}
+
+#work .bg-darkgray{
+    background-color: darkgray;
+    padding: 30px;
+    margin: 40px; 15px;
+    
+}
+
+#work .bg-greenyellow{
+    background-color: greenyellow;
+    padding: 30px;
+    margin: 40px; 15px;
+
+
+
+
+
+
+
